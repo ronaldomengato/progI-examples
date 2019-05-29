@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 #include <stdlib.h>
 /*
 * Exercício 1 da mini maratona do dia 27/05/19.
