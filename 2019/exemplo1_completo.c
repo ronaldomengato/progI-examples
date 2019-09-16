@@ -50,6 +50,9 @@ int main(){
 
 int calculaIdade(Cliente * c) {
   int idade = ANO_ATUAL - c->ano;
+  if(MES_ATUAL > c->mes){
+    return idade;
+  }
   if(MES_ATUAL < c->mes) {
     idade--;
   } else if(DIA_ATUAL < c->dia) {
